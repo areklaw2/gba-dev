@@ -1,0 +1,12 @@
+{
+  "name": "GBA Dev",
+  "image": "gba-dev",
+  "containerEnv": {
+    "HOSTNAME": "gba-dev"
+  },
+"customizations": {
+    "vscode": {
+      "extensions": ["llvm-vs-code-extensions.vscode-clangd"]
+    }
+  }
+}

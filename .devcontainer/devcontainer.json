@@ -4,9 +4,13 @@
   "containerEnv": {
     "HOSTNAME": "gba-dev"
   },
-"customizations": {
+  "customizations": {
     "vscode": {
-      "extensions": ["llvm-vs-code-extensions.vscode-clangd"]
+      "extensions": ["llvm-vs-code-extensions.vscode-clangd"],
+      "settings": {
+        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd",
+        "editor.formatOnSave": true
+      }
     }
   }
 }

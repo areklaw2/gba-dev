@@ -3,7 +3,9 @@ FROM devkitpro/devkitarm:20260221
 # Install GBA dev packages
 RUN dkp-pacman -Sy --noconfirm gba-dev
 RUN apt-get update && apt-get install -y --no-install-recommends \
+    clangd \
     clang-tools \
+    clang-format \
     zsh \
     curl \
     git \

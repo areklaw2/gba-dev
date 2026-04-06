@@ -10,6 +10,7 @@
       "settings": {
         "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd",
         "editor.formatOnSave": true,
+        "editor.tabSize": 4,
         "[c]": {
           "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
         },
